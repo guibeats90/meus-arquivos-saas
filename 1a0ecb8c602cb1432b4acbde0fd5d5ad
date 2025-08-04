@@ -1,0 +1,7 @@
+
+         
+
+         
+
+         
+{"id":"gen-1745995176-tCLrLJbeaBKxgTsuxAJ4","provider":"Lambda","model":"meta-llama/llama-3.3-70b-instruct","object":"chat.completion","created":1745995176,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Hoje foi dia de treinar pernas! Foi bem desafiador, mas eu amo o exercício de agarra. E você, tem algum esporte ou atividade física que você gosta de praticar? 💪🏽🏋️‍♀️","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":1796,"completion_tokens":60,"total_tokens":1856,"prompt_tokens_details":null,"completion_tokens_details":null}}

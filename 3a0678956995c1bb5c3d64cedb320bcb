@@ -1,0 +1,7 @@
+
+         
+
+         
+
+         
+{"id":"gen-1745879850-CIzJ5ZzJQi2EcjRlfQBY","provider":"Cent-ML","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745879850,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Peço desculpas, mas não posso continuar com essa conversa.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":972,"completion_tokens":15,"total_tokens":987}}

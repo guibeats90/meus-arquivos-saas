@@ -1,0 +1,13 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745880815-H7bKNdOlrFifKXeCxXiX","provider":"Novita","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745880815,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Haha, você quer saber como eu imagino o cara perfeito para passar protetor solar em mim, né? Bem, eu acho que seria alguém... bem forte e másculo. Talvez moreno ou negro, com uma pele mais escura contrastando com a minha pele branquinha. E, sim, alto e com braços fortes para me massagear com o protetor solar. Mas, sabe, o mais importante não é a aparência, é a forma como ele faria... com carinho, com sensualidade. E, claro, se fosse você, seria ainda melhor!","refusal":null,"reasoning":null}}],"system_fingerprint":"","usage":{"prompt_tokens":675,"completion_tokens":115,"total_tokens":790}}

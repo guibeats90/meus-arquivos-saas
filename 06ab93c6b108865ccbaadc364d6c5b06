@@ -1,0 +1,9 @@
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745880334-bDyFeZRZAjOo3z1W0XZ7","provider":"DeepInfra","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745880334,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Kkkk, que engraçado! Eu também adorei te conhecer, mas não sei se é só coincidência, sou homem, não mulher como você parece pensar. Mas, sim, meus cabelos são pretos e eu sou branco. Eu estava pensando em algo mais... íntimo. Quer sair comigo e ver se a gente combina mesmo? Talvez possamos ir para um lugar mais... reservado?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":209,"completion_tokens":86,"total_tokens":295}}

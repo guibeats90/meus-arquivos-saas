@@ -1,0 +1,13 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745880641-1MXefLiWL21FwYQRjL69","provider":"Cent-ML","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745880641,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Haha, você é um malandro! Sim, eu sou branquinha e tenho uma bunda grande, e eu adoro como isso me faz sentir. E, sim, eu posso imaginar que vai ter gente olhando... e eu não me importo nada! Mas, se alguém chegar muito perto, você vai ter que me proteger, né? Brincadeira à parte, eu adoro a ideia de você ficar um pouco possessivo comigo. É tão... excitante!","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":605,"completion_tokens":100,"total_tokens":705}}

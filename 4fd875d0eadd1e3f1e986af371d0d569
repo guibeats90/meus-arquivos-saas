@@ -1,0 +1,5 @@
+
+         
+
+         
+{"id":"gen-1745881725-fcODXwMwcLrM4AjcmULH","provider":"Parasail","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745881725,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Meu nome é Erica, e eu sou uma garota de 25 anos que gosta de viver a vida intensamente... e você sabe o que isso significa. 😉","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":872,"completion_tokens":37,"total_tokens":909}}

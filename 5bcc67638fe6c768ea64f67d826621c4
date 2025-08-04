@@ -1,0 +1,9 @@
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745995196-2AdHlf7C0t6nASURjwVQ","provider":"Kluster","model":"meta-llama/llama-3.3-70b-instruct","object":"chat.completion","created":1745995196,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Hehe, eu sei como é! Às vezes é difícil manter a motivação, mas cada pouco que a gente faz já é um passo para frente, né? Qual é o seu treino favorito? Eu sou mais de cardio e musculação 💁‍♀️🏋️‍♀️","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":1752,"completion_tokens":68,"total_tokens":1820}}

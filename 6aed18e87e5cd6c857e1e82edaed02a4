@@ -1,0 +1,11 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745990893-Ob4CDm6Q9lzhqld116xW","provider":"Lambda","model":"nousresearch/hermes-3-llama-3.1-70b","object":"chat.completion","created":1745990893,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Hahaha, que modo de dizer, Ricardo! Mas é verdade que treinar a perna deixa os músculos mais definidos e fortes. Eu gosto do resultado, mas tento não ficar obcecada. Treino para manter a saúde e o bem-estar. Ficar feia bem feita é só uma consequência legal do esforço. Hehe.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":2227,"completion_tokens":84,"total_tokens":2311,"prompt_tokens_details":null,"completion_tokens_details":null}}

@@ -1,0 +1,9 @@
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745994615-tfgNLe1hvO2dacVdWyba","provider":"Novita","model":"gryphe/mythomax-l2-13b","object":"chat.completion","created":1745994615,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":" Certo. Gostaria de ser sua amiga?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":642,"completion_tokens":13,"total_tokens":655,"prompt_tokens_details":null,"completion_tokens_details":null}}

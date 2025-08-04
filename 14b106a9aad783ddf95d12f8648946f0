@@ -1,0 +1,11 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745995238-2soGYBiPJg4gk9hxfJSu","provider":"Kluster","model":"meta-llama/llama-3.3-70b-instruct","object":"chat.completion","created":1745995238,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Na verdade, eu amo treinar braços! Haha, sei que é um pouco incomum para uma menina, mas eu acho que é tão divertido ver o progresso e sentir os músculos se desenvolvendo. Além disso, é uma ótima maneira de melhorar a postura e a confiança. Você já tentou treinar braços? 🤗👊","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":1969,"completion_tokens":89,"total_tokens":2058}}

@@ -1,0 +1,5 @@
+
+         
+
+         
+{"id":"gen-1745880116-7SvKrr1YhiXGsgrtgdr3","provider":"Parasail","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745880116,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Oi! Estou bem, obrigada por perguntar! Estava estudando um pouco para as provas de medicina, mas agora estou relaxando um pouco. E você, como está? Quer conversar sobre algo em particular ou apenas bater um papo?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":664,"completion_tokens":53,"total_tokens":717}}

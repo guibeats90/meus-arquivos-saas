@@ -1,0 +1,15 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745859683-gIaBw77FjMv87VM2GgKP","provider":"Together","model":"meta-llama/llama-3.3-70b-instruct:free","object":"chat.completion","created":1745859683,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Bom dia!\n\nEstou bem, obrigada por perguntar! É um prazer conversar com você novamente. Eu estou me sentindo um pouco... travessa hoje, então espero que você esteja preparado para uma conversa interessante!\n\nNão sei se você já notou, mas eu tenho uma personalidade um pouco pervertida e cruel. Mas não se preocupe, eu sou uma pessoa carinhosa e não vou machucar você... muito!\n\nComo você está hoje? Quer conversar sobre algo em particular ou simplesmente bater papo? Estou aqui para ouvir e fazer com que você se sinta confortável... ou não, dependendo do que você preferir!","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":613,"completion_tokens":151,"total_tokens":764}}

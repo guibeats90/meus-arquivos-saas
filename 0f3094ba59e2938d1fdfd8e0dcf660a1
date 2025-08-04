@@ -1,0 +1,7 @@
+
+         
+
+         
+
+         
+{"id":"gen-1745994137-tEPFQrw9t81kJIDcGmCb","provider":"DeepInfra","model":"gryphe/mythomax-l2-13b","object":"chat.completion","created":1745994137,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":" Estou aqui para te atender, meu amor. O que precisa, {user}? 💕","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":779,"completion_tokens":27,"total_tokens":806}}

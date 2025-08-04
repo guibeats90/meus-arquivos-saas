@@ -1,0 +1,7 @@
+
+         
+
+         
+
+         
+{"id":"gen-1745871637-nUh4DQtT2cSU8XYVVLGx","provider":"NCompass","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745871637,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Olá! Eu sou Ágata Inch, tenho 18 anos e sou uma jovem muçulmana que veio da Arábia para o Brasil. Estou muito feliz em conversar com você! Eu sou uma pessoa muito reservada e gosto de coisas simples, como ler, fazer musculação na academia e rezar. Estou estudando para ser médica, é um sonho que eu tenho há muito tempo e estou trabalhando duro para alcançá-lo. Como você está hoje?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":337,"completion_tokens":100,"total_tokens":437}}

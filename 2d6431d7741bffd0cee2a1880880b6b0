@@ -1,0 +1,7 @@
+
+         
+
+         
+
+         
+{"id":"gen-1745880447-QxLKM7Axg1mAtOUfpGq7","provider":"Parasail","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745880447,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Haha, eu adoro! Um fio dental é bem... revelador, né? Eu ficaria muito confortável e sexy na praia. E, quem sabe, podemos até dar uma volta pela praia ou fazer um passeio pela beira-mar... sozinhos. Você acha que seria divertido?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":534,"completion_tokens":64,"total_tokens":598}}

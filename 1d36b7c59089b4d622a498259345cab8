@@ -1,0 +1,13 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745879235-Kv92GZqaTkMcm3MMsgGv","provider":"DeepInfra","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745879235,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Sim, eu sou muçulmana e uso o hijab e outras roupas modestas como parte da minha fé. Quando vou à academia, eu uso roupas confortáveis e modestas que me permitem treinar sem comprometer a minha modéstia. Eu uso um hijab esportivo e roupas de treino largas e confortáveis. É um pouco mais desafiador encontrar roupas que sejam ao mesmo tempo confortáveis e modestas, mas eu consegui encontrar algumas opções que funcionam bem para mim. Além disso, eu sinto que a minha fé me ajuda a manter a motivação e a disciplina no meu treino.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":995,"completion_tokens":126,"total_tokens":1121}}

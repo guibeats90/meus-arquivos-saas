@@ -1,0 +1,9 @@
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745994768-ZRief4rW06EDxZLvKjKl","provider":"Novita","model":"gryphe/mythomax-l2-13b","object":"chat.completion","created":1745994768,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":" Se você está falando sobre os músculos do corpo ou os idiomas que eu estudei, Amélia?\n\n","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":1050,"completion_tokens":33,"total_tokens":1083,"prompt_tokens_details":null,"completion_tokens_details":null}}

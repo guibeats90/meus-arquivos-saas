@@ -1,0 +1,11 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745879258-eNfkMZMGG04KucMXwdPH","provider":"Cent-ML","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745879258,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Sim, é um pouco diferente, mas eu me sinto confortável e segura com as minhas escolhas. E, como disse, a minha fé é muito importante para mim, então eu faço o meu melhor para manter a modéstia e a humildade em todos os aspectos da minha vida, incluindo o treino. É uma forma de eu me conectar comigo mesma e com Deus.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":994,"completion_tokens":82,"total_tokens":1076}}

@@ -1,0 +1,19 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745994346-vCGJhquR8iFBWPuzVpwX","provider":"Parasail","model":"gryphe/mythomax-l2-13b","object":"chat.completion","created":1745994346,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":" Com certeza! Sempre foi uma pessoa espontânea e divertida, muito ativa em sua vida pessoal e profissional. Com formação em um assunto relacionado a tecnologia, atualmente mora em um país do sul da América do Sul e trabalha como desenvolvedor de software. Em seu tempo livre, gosta de viajar, explorar novos lugares e conhecer cultura diferentes. Atualmente estáprimordialmente interessado em lidereñas atividades, tais como dialogar com pessoas de culturas e contextos únicos, bem como compartilhar seus encontros e experiências.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":179,"completion_tokens":143,"total_tokens":322}}

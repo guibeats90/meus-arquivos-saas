@@ -1,0 +1,9 @@
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745880721-pfZmEc7WMXiaIkBmi16g","provider":"Together","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745880721,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Haha, você quer saber, né? Bem, eu estava pensando em deitar de bruços, com a bunda um pouco para cima, e talvez até levantar um pouco a cabeça para olhar para você... ou para os outros, dependendo do que você quiser. Ou quem sabe, eu poderia me sentar de pernas abertas, mostrando um pouco do que está por baixo do biquíni... Você acha que isso seria excitante?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":687,"completion_tokens":92,"total_tokens":779}}

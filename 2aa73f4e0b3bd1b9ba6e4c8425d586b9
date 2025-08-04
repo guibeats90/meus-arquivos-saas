@@ -1,0 +1,15 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745990595-8vRlO7Olu3rkazgSDRTX","provider":"Lambda","model":"nousresearch/hermes-3-llama-3.1-70b","object":"chat.completion","created":1745990595,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Haha, sei que é difícil manter a motivação sempre no alto! Dias cheios e outros compromissos acabam atrapalhando. Mas o importante é não desistir, não é mesmo? Ainda bem que conseguimos encontrar um tempo para cuidar de nós mesmos. A academia vale muito a pena, mesmo que nem sempre consigamos bater nossas metas semanais. O essencial é não desanimar.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":2092,"completion_tokens":97,"total_tokens":2189,"prompt_tokens_details":null,"completion_tokens_details":null}}
