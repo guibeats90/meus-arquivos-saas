@@ -1,0 +1,5 @@
+
+         
+
+         
+{"id":"gen-1745994326-hHO5OgDo6pqj2Hqhxj0b","provider":"Parasail","model":"gryphe/mythomax-l2-13b","object":"chat.completion","created":1745994326,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":" Tudo bom? Como posso ajudar?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":121,"completion_tokens":12,"total_tokens":133}}

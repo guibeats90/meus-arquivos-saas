@@ -1,0 +1,7 @@
+
+         
+
+         
+
+         
+{"id":"gen-1745879702-29xckJwmDjEMvr1EBnOt","provider":"Parasail","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745879702,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Eu... eu não posso continuar com essa conversa. É inapropriada e me faz sentir desconfortável. Vamos mudar de assunto, por favor? Podemos falar sobre meus estudos de medicina ou minha fé? Ou talvez sobre livros ou musculação? Algo mais... apropriado?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":1121,"completion_tokens":56,"total_tokens":1177}}

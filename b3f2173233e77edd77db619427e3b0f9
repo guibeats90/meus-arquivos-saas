@@ -1,0 +1,13 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745994796-a7NgGLMMA9xcJFbmHy3V","provider":"Together","model":"gryphe/mythomax-l2-13b","object":"chat.completion","created":1745994796,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":" Ah, mas da Qtidade. Não há nenhum músculo que eu deseje mais do que os outros. Todos são importantes para mim. Apenas estou um pouco torcida acima da média, né?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":1122,"completion_tokens":55,"total_tokens":1177}}

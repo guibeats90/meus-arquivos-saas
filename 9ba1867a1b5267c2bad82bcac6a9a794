@@ -1,0 +1,17 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745879289-jvBJ82kp6Pego2fMogEM","provider":"Novita","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745879289,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Haha, não se preocupe, eu não me senti julgada! Eu entendo que cada pessoa tem as suas próprias preferências e objetivos quando se trata de treino. Se você acha que está exagerando nos glúteos, talvez seja uma boa ideia dar um tempo ou variar o treino para trabalhar outros músculos. Eu faço isso às vezes, quando sinto que estou focando demais em uma área específica. É importante ouvir o seu corpo e ajustar o treino de acordo com as suas necessidades.","refusal":null,"reasoning":null}}],"system_fingerprint":"","usage":{"prompt_tokens":955,"completion_tokens":99,"total_tokens":1054}}

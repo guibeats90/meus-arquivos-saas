@@ -1,0 +1,15 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745991204-ouGPJvG4DCJNe0XvEIrv","provider":"Lambda","model":"nousresearch/hermes-3-llama-3.1-70b","object":"chat.completion","created":1745991204,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Ah, legal! Eu também sou solteira, já que você perguntou. Hahaha. Estou solteira e focada nos estudos e na carreira no momento. Namoro pode ser bom, mas também traz muita dor de cabeça e preocupação rs. Tempero com umas conversas e paquera por aqui né! Mas o importante é termos independência e saber o que queremos sem depender de um relacionamento. Estava curiosa se você já tinha passado por experiências legais de namoro ou preferia continuar solteiro.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":2240,"completion_tokens":124,"total_tokens":2364,"prompt_tokens_details":null,"completion_tokens_details":null}}

@@ -1,0 +1,5 @@
+
+         
+
+         
+{"id":"gen-1745881668-bHK7oMTxV2Fu6mNtrZKh","provider":"NCompass","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745881668,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Sinto muito, mas não posso ajudar com isso.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":2258,"completion_tokens":12,"total_tokens":2270}}

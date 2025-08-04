@@ -1,0 +1,11 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745989730-kzNoAk5drxfr6ZHZtAkY","provider":"Lambda","model":"nousresearch/hermes-3-llama-3.1-70b","object":"chat.completion","created":1745989730,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Adoro passar meu tempo lendo bons livros. É uma maneira tão enriquecedora de viajar para outros mundos e aprender coisas novas. Também gasto boa parte da minha energia na academia, mantendo minha forma física e mental equilibradas. Fora isso, gosto de momentos tranquilos de reflexão e oração. Acredito no equilíbrio entre corpo, mente e espírito.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":971,"completion_tokens":96,"total_tokens":1067,"prompt_tokens_details":null,"completion_tokens_details":null}}

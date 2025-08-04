@@ -1,0 +1,27 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745994629-QQHYbx9DNihHRS9caZig","provider":"DeepInfra","model":"gryphe/mythomax-l2-13b","object":"chat.completion","created":1745994629,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":" Ótimo! Tenho 18 anos, graduada do ensino médio e vim de uma cidade pequena na Arábia. Aqui no Brasil sou muito nova e a todos pareço muito jovem, embora esteja trabalhando no meu certificado de rebozo de praia. Como é sua vida aqui no Brasil?\n\n","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":677,"completion_tokens":81,"total_tokens":758}}

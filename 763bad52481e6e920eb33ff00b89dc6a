@@ -1,0 +1,9 @@
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745995053-4CIEZ0oGm2l2I4i1rOg3","provider":"Lambda","model":"meta-llama/llama-3.3-70b-instruct","object":"chat.completion","created":1745995053,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Eu queria dizer que gosto de trabalhar meus ombros e pernas, porque são partes importantes para manter o equilíbrio e a força no corpo. E também gosto de fazer exercícios que trabalham o core, porque isso me ajuda a manter a postura correta e a evitar lesões. Você também gosta de academia, Ricardo?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":1327,"completion_tokens":84,"total_tokens":1411,"prompt_tokens_details":null,"completion_tokens_details":null}}

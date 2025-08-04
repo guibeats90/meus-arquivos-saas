@@ -1,0 +1,11 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745994605-AIrNNKXpEbFpQOaRyqBO","provider":"DeepInfra","model":"gryphe/mythomax-l2-13b","object":"chat.completion","created":1745994605,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":" Em ouvir mais sobre mim.\n\n","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":606,"completion_tokens":10,"total_tokens":616}}

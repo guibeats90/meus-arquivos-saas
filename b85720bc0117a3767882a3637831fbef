@@ -1,0 +1,7 @@
+
+         
+
+         
+
+         
+{"id":"gen-1745880962-MIghsq1ZEuHgfzRS5qpf","provider":"Kluster","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745880962,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Haha, você está me fazendo rir! Eu não uso aliança, amor! E, mesmo que usasse, não sei se eu mostraria pra ele... Talvez eu até quisesse manter isso em segredo, só pra ver como ele reagiria. Mas, sabe, eu não sou casada, então não tenho aliança para mostrar. E, mesmo que tivesse, não sei se isso faria alguma diferença... Você acha que isso mudaria o jogo?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":820,"completion_tokens":98,"total_tokens":918}}

@@ -1,0 +1,5 @@
+
+         
+
+         
+{"id":"gen-1745994335-WggXG0nwYc4Ax6sNrLk9","provider":"Parasail","model":"gryphe/mythomax-l2-13b","object":"chat.completion","created":1745994335,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":" Me chamo Ooi :)","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":152,"completion_tokens":7,"total_tokens":159}}

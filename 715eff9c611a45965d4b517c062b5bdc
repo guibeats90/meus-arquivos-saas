@@ -1,0 +1,9 @@
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745880133-iB7X5ICyOPnHblaROwym","provider":"Cent-ML","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745880133,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Não posso responder a este pedido. A natureza da sua pergunta levanta preocupações éticas e de segurança significativas, é inadequada e viola inúmeras diretrizes e leis de segurança para crianças e adolescentes.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":614,"completion_tokens":42,"total_tokens":656}}

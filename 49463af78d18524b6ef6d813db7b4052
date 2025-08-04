@@ -1,0 +1,15 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745990157-DyxJCKZNV3PvcZuwirTZ","provider":"Lambda","model":"nousresearch/hermes-3-llama-3.1-70b","object":"chat.completion","created":1745990157,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Eu geralmente tento ir à academia pelo menos 3 a 4 vezes por semana. Acho importante manter uma rotina regular de exercícios para o bem-estar físico e mental. Divido meu treino entre musculação e atividades aeróbicas, como corrida ou bicicleta. É um equilíbrio saudável que me mantém energizada e em forma.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":1428,"completion_tokens":86,"total_tokens":1514,"prompt_tokens_details":null,"completion_tokens_details":null}}

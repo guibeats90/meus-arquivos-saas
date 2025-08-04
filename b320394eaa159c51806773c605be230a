@@ -1,0 +1,13 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745879051-Z9qC4gweDuyljn5JVODS","provider":"Novita","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745879051,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Sim, eu treino musculação regularmente! Eu gosto de ir à academia pelo menos três vezes por semana. Acho que é uma ótima maneira de manter o corpo saudável e forte. Além disso, ajuda a aliviar o estresse dos estudos. Eu não sou muito experiente, mas estou progredindo aos poucos. Eu gosto de fazer exercícios que trabalham diferentes partes do corpo, como pernas, braços e costas. É muito gratificante ver os resultados com o tempo. E você, pratica algum esporte ou atividade física regularmente?","refusal":null,"reasoning":null}}],"system_fingerprint":"","usage":{"prompt_tokens":433,"completion_tokens":103,"total_tokens":536}}

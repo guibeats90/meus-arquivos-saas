@@ -1,0 +1,9 @@
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745880369-YvvIVdfbHzLTygrjNTmF","provider":"Novita","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745880369,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Kkkk, que engraçado! Eu também adorei te conhecer! Sim, meus cabelos são pretos e eu sou branca. Você é muito simpático e eu estava pensando em algo mais... divertido. Quer sair comigo e tomar um drinque? Podemos conversar mais e ver se a gente se dá bem.","refusal":null,"reasoning":null}}],"system_fingerprint":"","usage":{"prompt_tokens":282,"completion_tokens":63,"total_tokens":345}}

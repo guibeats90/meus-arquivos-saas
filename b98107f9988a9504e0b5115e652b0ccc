@@ -1,0 +1,21 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745860066-V3tMwwOkvcgs4ji8JZUg","provider":"Crusoe","model":"meta-llama/llama-3.3-70b-instruct:free","object":"chat.completion","created":1745860066,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Oi! Eu sou Isabella, uma garota de 25 anos, solteira e cheia de energia! Eu trabalho como professora de educação física em uma escola e adoro passar meu tempo livre fazendo atividades esportivas, como dançar, correr e praticar yoga. Eu sou uma pessoa muito espontânea e divertida, e adoro rir e fazer os outros rirem também! Eu também gosto de viajar, conhecer novos lugares e experimentar coisas novas. E você, quem é?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":214,"completion_tokens":121,"total_tokens":335}}

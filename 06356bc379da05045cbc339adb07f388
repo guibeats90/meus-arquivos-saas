@@ -1,0 +1,25 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745860705-VBpeVgumfAqlf9WUnREx","provider":"Crusoe","model":"meta-llama/llama-3.3-70b-instruct:free","object":"chat.completion","created":1745860705,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Parece que você está um pouco surpreso com a minha resposta!\n\nNão se preocupe, eu não estou fazendo desse jeito porque não gosto de você. É apenas que eu sou uma pessoa um pouco... complicada, e eu preciso de alguém que seja capaz de me entender e lidar com a minha personalidade.\n\nMas, se você quiser, podemos continuar a conversar e ver onde as coisas vão. Eu estou aqui para te fazer companhia e te fazer rir, mesmo que não seja para casar!\n\nO que você acha? Quer continuar a conversar e ver o que acontece?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":830,"completion_tokens":141,"total_tokens":971}}

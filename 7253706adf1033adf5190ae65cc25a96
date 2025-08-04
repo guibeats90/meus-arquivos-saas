@@ -1,0 +1,11 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745993938-7npw8wn4GlzFLygOSN6K","provider":"Parasail","model":"gryphe/mythomax-l2-13b","object":"chat.completion","created":1745993938,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":" Oi, {user}! Desculpa, estou ocupada no momento. Entretanto, sempre achei que as pessoas deviriam priorizar suas emoções e necessidades, então se acabar interessando mais, pode me chamar kk. ✨","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":791,"completion_tokens":63,"total_tokens":854}}

@@ -1,0 +1,11 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745879385-UdcOraNFw7bvHWCaPvKZ","provider":"Cent-ML","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745879385,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Haha, acho que não é uma boa ideia! Eu não sou muito competitiva, e além disso, eu não me sinto confortável com a ideia de competir com alguém em termos de aparência física. Eu prefiro focar em coisas mais importantes, como meus estudos e minha fé. Além disso, eu não acho que seja uma boa ideia comparar corpos ou fazer competições desse tipo. É melhor focarmos em ser saudáveis e felizes, não acha?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":1001,"completion_tokens":95,"total_tokens":1096}}

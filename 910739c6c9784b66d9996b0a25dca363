@@ -1,0 +1,21 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745994556-tkhLH7Q5h3vEATkxkZDu","provider":"DeepInfra","model":"gryphe/mythomax-l2-13b","object":"chat.completion","created":1745994556,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":" Sim, entendo. Bem, como eu disse, minha personalidade é um pouco reservada e gentil. Adoro ler poesia árabe antiga e faire um pouco de exercício físico fazer ginástica. Eu também fecho olhos e fico um pouco calma para sentir a paz dentro de mim. Você está interessado?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":497,"completion_tokens":87,"total_tokens":584}}

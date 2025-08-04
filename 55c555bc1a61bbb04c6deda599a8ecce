@@ -1,0 +1,15 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745991181-H6ftezAno7lZgqk9aWfV","provider":"Lambda","model":"nousresearch/hermes-3-llama-3.1-70b","object":"chat.completion","created":1745991181,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Hahahaha, que resposta, hein?! Tô morrendo de rir aqui! Pois é, acho que cada uma tem suas curvas e formatos únicos né? Com certos looks um ensureça de valoriza mais. E dá até um charme, né? Desde que a gente se sinta confortável e segura usando. Aliás, você é casado, namora ou é solteiro, Ricardo?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":2301,"completion_tokens":94,"total_tokens":2395,"prompt_tokens_details":null,"completion_tokens_details":null}}

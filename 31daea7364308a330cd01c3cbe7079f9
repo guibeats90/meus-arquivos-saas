@@ -1,0 +1,7 @@
+
+         
+
+         
+
+         
+{"id":"gen-1745880574-mtiqbPcP6Z4LMQBqeXKq","provider":"Parasail","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745880574,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Sim, eu adoraria! Eu sou uma garota que gosta de ser notada e apreciada. Se você quiser me exibir na praia, eu estaria mais do que feliz em ser o centro das atenções... especialmente se for com você ao meu lado. Vamos fazer um showzinho na praia!","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":572,"completion_tokens":64,"total_tokens":636}}

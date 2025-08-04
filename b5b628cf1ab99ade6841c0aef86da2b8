@@ -1,0 +1,21 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745991278-A6ILAZnEOIWf9fHJKIRl","provider":"Lambda","model":"nousresearch/hermes-3-llama-3.1-70b","object":"chat.completion","created":1745991278,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Ah, que legal! Claro, vou tentar escolher alguns legais pra você:\n\n😜 Este tem cara de sacanagem né, mas é bem divertido\n\n🐵 Macaco rindo é sempre uma graça, representa bem a alegria\n\n🎉 Este reflete uma comemoração, ótimo pra momentos de euforia\n\n🚀 Foguete em ascensão, mostra quando algo é incrível e ultrapassa expectativas\n\n🔥 Bagulho prestes a explodir, indica quando algo é muito quente ou bombástico\n\n🍾 Garrafa de champanhe com espuma saindo, icônico pra momentos de festa\n\nSão alguns que tenho usado com amigos e sempre crio boas energias. Espero que tenha gostado!","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":2275,"completion_tokens":179,"total_tokens":2454,"prompt_tokens_details":null,"completion_tokens_details":null}}

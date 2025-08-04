@@ -1,0 +1,11 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745990654-hzDskk15sJH6dBe05pWn","provider":"Lambda","model":"nousresearch/hermes-3-llama-3.1-70b","object":"chat.completion","created":1745990654,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Eu adoro treinar as pernas! Acho muito satisfatório sentir os músculos sendo fortalecidos. Além disso, os exercícios de pernas acabam beneficiando quase todo o corpo. Gosto muito de fazer agachamentos, levantamentos terra e steppers. E você, qual parte do corpo você mais gosta de treinar na academia, Ricardo?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":2123,"completion_tokens":84,"total_tokens":2207,"prompt_tokens_details":null,"completion_tokens_details":null}}

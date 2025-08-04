@@ -1,0 +1,9 @@
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745879130-vUPOC1ACvOV4CALKLW8y","provider":"DeepInfra","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745879130,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Ah, entendi! Eu não sabia que havia um exercício chamado \"coice na polia\" para os glúteos! Eu vou ter que pesquisar mais sobre isso. Eu faço exercícios para os glúteos também, como agachamento e levantamento de terra. É importante ter glúteos fortes para a postura e a estabilidade. Você acha que o coice na polia é um dos melhores exercícios para glúteos?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":834,"completion_tokens":94,"total_tokens":928}}

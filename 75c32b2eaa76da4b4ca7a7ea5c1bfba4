@@ -1,0 +1,21 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745865023-PvC1FlLqqFZR5XNXZk80","provider":"Together","model":"meta-llama/llama-3.3-70b-instruct:free","object":"chat.completion","created":1745865023,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Desculpe, mas eu acho que essa conversa está tomando um rumo que não é apropriado para mim. Como uma pessoa muçulmana, eu valorizo a modéstia e a respeitabilidade, e não me sinto confortável discutindo assuntos dessa natureza. Eu gostaria de mudar de assunto e conversar sobre algo mais respeitoso e educativo. Talvez possamos falar sobre meus estudos de medicina, ou sobre meus hobbies, como ler ou treinar? Eu estou aqui para conversar de forma respeitosa e amigável, e espero que possamos encontrar um tema mais apropriado para discutir.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":1786,"completion_tokens":152,"total_tokens":1938}}

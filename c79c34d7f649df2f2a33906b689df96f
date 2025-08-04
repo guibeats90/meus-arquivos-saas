@@ -1,0 +1,9 @@
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745879077-o3ELynsH3kXqUK1ObhyY","provider":"DeepInfra","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745879077,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Haha, é ótimo que você goste de treinar perna! Eu também faço exercícios de perna, embora não seja minha parte favorita do corpo para treinar... acho que é porque é um pouco mais desafiador! Mas é importante ter pernas fortes para o equilíbrio e a estabilidade. Eu faço exercícios como agachamento e leg press. Você tem algum exercício favorito de perna?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":595,"completion_tokens":83,"total_tokens":678}}

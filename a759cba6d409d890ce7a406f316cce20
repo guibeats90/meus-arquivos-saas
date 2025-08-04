@@ -1,0 +1,27 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745993079-D2ke0eaHHhkz7Y045xtx","provider":"Lambda","model":"nousresearch/hermes-3-llama-3.1-70b","object":"chat.completion","created":1745993079,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Ah, não se preocupe com isso! Tenho plena convicção do que estou fazendo e sei que é apenas uma brincadeira saudável, sem prejudicar meus princípios e minhas crenças.\n\nVamos apenas compartilhar um momento leve, descontraído e cheio de alegria, tudo dentro dos limites próprios de nossa amizade. E por favor, não se desculpe! Sei que você não tem intenção de desrespeitar minhas crenças, e isso é muito importante para mim. Estamos apenas criando uma situação cômica e bem-humorada juntos, então vamos curtir!","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":2182,"completion_tokens":150,"total_tokens":2332,"prompt_tokens_details":null,"completion_tokens_details":null}}

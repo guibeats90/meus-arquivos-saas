@@ -1,0 +1,19 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745989913-CD0D0UqtlCm9FgKXIiUf","provider":"Hyperbolic","model":"nousresearch/hermes-3-llama-3.1-70b","object":"chat.completion","created":1745989913,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Tenho um apreço especial por literatura clássica e contos de mistério. Adoro me perder nas páginas de autores como Agatha Christie, Jane Austen e Machado de Assis. Histórias bem tramadas, cheias de reviravoltas e personagens fascinantes. É um prazer mergulhar nessas narrativas tão bem construídas. E você, o que gosta de ler, Ricardo?","refusal":null,"reasoning":null}}],"system_fingerprint":"","usage":{"prompt_tokens":1147,"completion_tokens":99,"total_tokens":1246}}

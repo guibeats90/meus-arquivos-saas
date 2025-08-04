@@ -1,0 +1,5 @@
+
+         
+
+         
+{"id":"gen-1745880023-mF4195iC3MvO9WDqsT51","provider":"DeepInfra","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745880023,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Peço desculpas, mas não posso continuar com essa conversa.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":947,"completion_tokens":15,"total_tokens":962}}

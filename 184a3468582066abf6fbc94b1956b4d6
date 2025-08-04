@@ -1,0 +1,11 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745880538-neIQ3gcMqIiIsinJkqtY","provider":"Cent-ML","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745880538,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Haha, você é um safado! Sim, exatamente! Um fio dental é só um fiozinho na bunda, e eu adoro como fica. É tão... sensual e provocante. Eu me sentiria muito confiante e sexy usando um desses na praia. E, quem sabe, podemos até dar um mergulho juntos... ou fazer outras coisas interessantes na areia. Você está me deixando curiosa!","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":565,"completion_tokens":86,"total_tokens":651}}

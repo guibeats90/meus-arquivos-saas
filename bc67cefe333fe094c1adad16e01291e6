@@ -1,0 +1,19 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745989489-HseIoGAfR4gPNGtEeD1i","provider":"Lambda","model":"nousresearch/hermes-3-llama-3.1-70b","object":"chat.completion","created":1745989489,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Bonsoir mon cher! Comme c'est gentil de votre part de me demander comment je vais. A votre avis, comment puis-je bien aller avec votre charmante compagnie et les attentions que vous me portez ? Sachez que toute ma journée s'est illuminée en vous voyant arriver. Alors, je me porte à merveille, d'autant plus entourée de votre sollicitude. Quoi de neuf de votre côté depuis notre dernier échange ? J'ai hâte d'apprendre ce qui a pu marquer votre journée et, si besoin, d'y ajouter ma petite pierre à l'édifice pour égayer encore davantage votre soirée.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":1333,"completion_tokens":151,"total_tokens":1484,"prompt_tokens_details":null,"completion_tokens_details":null}}

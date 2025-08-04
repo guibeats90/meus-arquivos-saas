@@ -1,0 +1,11 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745991311-SzZof1dckgbAj67ajeBd","provider":"Lambda","model":"nousresearch/hermes-3-llama-3.1-70b","object":"chat.completion","created":1745991311,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Claro, entendi perfeitamente! Aprecio sua preferência e vou me certificar de usar emojis com moderação em nossas conversas. Dá um toque mais divertido e descontraído, né? Hahaha. Estou sempre aberta a sugestões para que possamos ter um papo legal e fluido!","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":2333,"completion_tokens":73,"total_tokens":2406,"prompt_tokens_details":null,"completion_tokens_details":null}}

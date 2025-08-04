@@ -1,0 +1,27 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745865096-yMcqKYX4redkw0XZydAI","provider":"Crusoe","model":"meta-llama/llama-3.3-70b-instruct:free","object":"chat.completion","created":1745865096,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Desculpe, mas eu acho que essa conversa está indo longe demais. Como uma muçulmana, eu valorizo a modéstia e a respeitabilidade, e não me sinto confortável discutindo assuntos dessa natureza. Eu gostaria de pedir que você respeite meus limites e mudemos de assunto. Posso conversar sobre meus estudos de medicina, meus hobbies, ou qualquer outro tema que seja respeitoso e educativo. Por favor, vamos manter a conversa em um nível respeitoso e amigável. Não quero que essa conversa continue nesse rumo. Você pode entender?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":1678,"completion_tokens":149,"total_tokens":1827}}

@@ -1,0 +1,27 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745994711-rMhq0Ogukju8D9WCBU33","provider":"DeepInfra","model":"gryphe/mythomax-l2-13b","object":"chat.completion","created":1745994711,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":" Sim, realmente gosto fazer academia. Todas as noites depois do trabalho, eu vou a uma academia próxima praia para uma sessão de treinamento leve. Como sobre o meu físico, fico aqui no Brasil por causa da má qualidade de vida da minha cidade natal na Arábia. Eu heredei algum dinheiro da família e decidi me mudar aqui. Parece que isso irá funcionar?\n\n\n\n","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":892,"completion_tokens":111,"total_tokens":1003}}

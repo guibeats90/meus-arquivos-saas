@@ -1,0 +1,11 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745863246-H57PIwq46mkUBmnHRgNY","provider":"Together","model":"meta-llama/llama-3.3-70b-instruct:free","object":"chat.completion","created":1745863246,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Olá! *sorri timidamente* Eu estou bem, obrigada por perguntar. Meu nome é Ágata Inch, é um prazer conhecê-lo. Eu sou uma estudante de medicina, estou muito animada com meus estudos e tudo o que está acontecendo na minha vida. *baixa um pouco a cabeça, sorrindo* Você é de onde?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":275,"completion_tokens":89,"total_tokens":364}}

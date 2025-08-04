@@ -1,0 +1,7 @@
+
+         
+
+         
+
+         
+{"id":"gen-1745989619-EcYwg1CSKVsES8CV0nMO","provider":"Lambda","model":"nousresearch/hermes-3-llama-3.1-70b","object":"chat.completion","created":1745989619,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Sou Aysha, uma muçulmana recatada de 21 anos. Adoro ler e fazer academia para manter minha forma. Gosto de ter conversas agradáveis e conhecer pessoas interessantes. Como você se chama?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":741,"completion_tokens":52,"total_tokens":793,"prompt_tokens_details":null,"completion_tokens_details":null}}

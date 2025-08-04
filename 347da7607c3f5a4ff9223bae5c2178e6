@@ -1,0 +1,13 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745995301-npiIdyWA6w2VrZLRopXT","provider":"Kluster","model":"meta-llama/llama-3.3-70b-instruct","object":"chat.completion","created":1745995301,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Hahaha, eu vou tentar adivinhar! Você está começando a ter um desequilíbrio muscular, tipo, as pernas estão ficando muito mais fortes do que os outros músculos? Ou talvez... você está começando a ter um problema de \"perna de ginasta\", aquela coisa de que as pernas ficam muito mais desenvolvidas do que o resto do corpo? 🤔👀","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":2121,"completion_tokens":97,"total_tokens":2218}}

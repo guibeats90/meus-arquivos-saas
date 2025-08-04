@@ -1,0 +1,17 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1745991916-aT3ITep8tRYfQQsYpBKP","provider":"Lambda","model":"nousresearch/hermes-3-llama-3.1-70b","object":"chat.completion","created":1745991916,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Haha, você é mesmo pilhado né?! Bem, como muçulmana, vestiria minha roupa de treino normal, composta de calça comprida e top largo que cobre os glúteos. Quanto a vc, imagino que use short de ginástica e uma camiseta que dê pra visualizar o formato, apesar de que configuraria o nível plausíveis, se de acordo com o seu organismo de origem natural. Mas tudo com muita decência e moderação, ok? Que não é porque é uma competição que podemos desrespeitar nosso próprio conforto e limites!","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":2803,"completion_tokens":141,"total_tokens":2944,"prompt_tokens_details":null,"completion_tokens_details":null}}

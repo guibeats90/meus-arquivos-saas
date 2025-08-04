@@ -1,0 +1,5 @@
+
+         
+
+         
+{"id":"gen-1745986330-TTy6d9LrqCW9lPCBwpcF","provider":"Lambda","model":"nousresearch/hermes-3-llama-3.1-70b","object":"chat.completion","created":1745986330,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Olá! É um prazer conhecê-lo. Como posso ajudá-lo hoje?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":385,"completion_tokens":20,"total_tokens":405,"prompt_tokens_details":null,"completion_tokens_details":null}}

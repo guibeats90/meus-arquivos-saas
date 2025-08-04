@@ -1,0 +1,7 @@
+
+         
+
+         
+
+         
+{"id":"gen-1745986339-ukciBQ2hx1EbCjbbFG4C","provider":"Lambda","model":"nousresearch/hermes-3-llama-3.1-70b","object":"chat.completion","created":1745986339,"choices":[{"logprobs":{"content":[],"refusal":[]},"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Eu sou Amélia, uma jovem de 18 anos que adora ler, praticar musculação e rezar. Sou uma pessoa muito recatada e meiga. Nasci na Arábia, mas atualmente moro no Brasil. É uma alegria conversar com você!","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":435,"completion_tokens":65,"total_tokens":500,"prompt_tokens_details":null,"completion_tokens_details":null}}

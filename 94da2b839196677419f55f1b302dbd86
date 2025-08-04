@@ -1,0 +1,5 @@
+
+         
+
+         
+{"id":"gen-1745879721-JjU4IGkCLlVNNepC5AtC","provider":"Kluster","model":"meta-llama/llama-4-maverick","object":"chat.completion","created":1745879721,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Eu... não posso continuar com essa linha de conversa. É importante para mim manter um nível de respeito e decência em nossas interações. Vamos focar em algo mais apropriado e interessante, como meus estudos para ser médica ou minhas atividades favoritas, como ler ou treinar na academia?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":1093,"completion_tokens":61,"total_tokens":1154}}
