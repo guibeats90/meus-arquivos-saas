@@ -1,53 +1,131 @@
 <?php
 
+use Filament\Facades\Filament;
+use Filament\Http\Controllers\Auth\EmailVerificationController;
+use Filament\Http\Controllers\Auth\LogoutController;
+use Filament\Http\Controllers\RedirectToHomeController;
+use Filament\Http\Controllers\RedirectToTenantController;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
+Route::name('filament.')
+    ->group(function () {
+        foreach (Filament::getPanels() as $panel) {
+            /** @var \Filament\Panel $panel */
+            $panelId = $panel->getId();
+            $hasTenancy = $panel->hasTenancy();
+            $tenantSlugAttribute = $panel->getTenantSlugAttribute();
 
-Route::get('/test', function() {
-    return view('emails.new-withdrawal', ['valor' => \Helper::amountFormatDecimal(150), 'usuario' => 'Teste']);
-});
+            Route::domain($panel->getDomain())
+                ->middleware($panel->getMiddleware())
+                ->name("{$panelId}.")
+                ->prefix($panel->getPath())
+                ->group(function () use ($panel, $hasTenancy, $tenantSlugAttribute) {
+                    Route::name('auth.')->group(function () use ($panel) {
+                        if ($panel->hasLogin()) {
+                            Route::get('/login', $panel->getLoginRouteAction())->name('login');
+                        }
 
-include_once(__DIR__ . '/groups/auth/login.php');
-include_once(__DIR__ . '/groups/auth/social.php');
-include_once(__DIR__ . '/groups/auth/register.php');
+                        if ($panel->hasPasswordReset()) {
+                            Route::name('password-reset.')
+                                ->prefix('/password-reset')
+                                ->group(function () use ($panel) {
+                                    Route::get('/request', $panel->getRequestPasswordResetRouteAction())->name('request');
+                                    Route::get('/reset', $panel->getResetPasswordRouteAction())
+                                        ->middleware(['signed'])
+                                        ->name('reset');
+                                });
+                        }
 
-// PROVIDERS
-include_once(__DIR__ . '/groups/provider/slotegrator.php');
-include_once(__DIR__ . '/groups/provider/pragmatic.php');
-include_once(__DIR__ . '/groups/provider/suitpay.php');
+                        if ($panel->hasRegistration()) {
+                            Route::get('/register', $panel->getRegistrationRouteAction())->name('register');
+                        }
+                    });
 
-Route::prefix('painel')
-    ->as('panel.')
-    ->middleware(['auth'])
-    ->group(function ()
-    {
-        include_once(__DIR__ . '/groups/panel/wallet.php');
-        include_once(__DIR__ . '/groups/panel/bets.php');
-        include_once(__DIR__ . '/groups/panel/profile.php');
-        include_once(__DIR__ . '/groups/panel/notifications.php');
-        include_once(__DIR__ . '/groups/panel/affiliates.php');
+                    Route::middleware($panel->getAuthMiddleware())
+                        ->group(function () use ($panel, $hasTenancy, $tenantSlugAttribute): void {
+                            if ($hasTenancy) {
+                                Route::get('/', RedirectToTenantController::class)->name('tenant');
+                            }
+
+                            Route::name('auth.')
+                                ->group(function () use ($panel): void {
+                                    Route::post('/logout', LogoutController::class)->name('logout');
+
+                                    if ($panel->hasProfile()) {
+                                        $panel->getProfilePage()::routes($panel);
+                                    }
+                                });
+
+                            if ($panel->hasEmailVerification()) {
+                                Route::name('auth.email-verification.')
+                                    ->prefix('/email-verification')
+                                    ->group(function () use ($panel) {
+                                        Route::get('/prompt', $panel->getEmailVerificationPromptRouteAction())->name('prompt');
+                                        Route::get('/verify', EmailVerificationController::class)
+                                            ->middleware(['signed'])
+                                            ->name('verify');
+                                    });
+                            }
+
+                            Route::name('tenant.')
+                                ->group(function () use ($panel): void {
+                                    if ($panel->hasTenantRegistration()) {
+                                        $panel->getTenantRegistrationPage()::routes($panel);
+                                    }
+                                });
+
+                            if ($routes = $panel->getAuthenticatedRoutes()) {
+                                $routes($panel);
+                            }
+
+                            Route::middleware($hasTenancy ? $panel->getTenantMiddleware() : [])
+                                ->prefix($hasTenancy ? ('{tenant' . (($tenantSlugAttribute) ? ":{$tenantSlugAttribute}" : '') . '}') : '')
+                                ->group(function () use ($panel): void {
+                                    Route::get('/', RedirectToHomeController::class)->name('home');
+
+                                    Route::name('tenant.')->group(function () use ($panel): void {
+                                        if ($panel->hasTenantBilling()) {
+                                            Route::get('/billing', $panel->getTenantBillingProvider()->getRouteAction())
+                                                ->name('billing');
+                                        }
+
+                                        if ($panel->hasTenantProfile()) {
+                                            $panel->getTenantProfilePage()::routes($panel);
+                                        }
+                                    });
+
+                                    Route::name('pages.')->group(function () use ($panel): void {
+                                        foreach ($panel->getPages() as $page) {
+                                            $page::routes($panel);
+                                        }
+                                    });
+
+                                    Route::name('resources.')->group(function () use ($panel): void {
+                                        foreach ($panel->getResources() as $resource) {
+                                            $resource::routes($panel);
+                                        }
+                                    });
+
+                                    if ($routes = $panel->getAuthenticatedTenantRoutes()) {
+                                        $routes($panel);
+                                    }
+                                });
+
+                        });
+
+                    if ($hasTenancy) {
+                        Route::middleware($panel->getTenantMiddleware())
+                            ->prefix('{tenant' . (($tenantSlugAttribute) ? ":{$tenantSlugAttribute}" : '') . '}')
+                            ->group(function () use ($panel): void {
+                                if ($routes = $panel->getTenantRoutes()) {
+                                    $routes($panel);
+                                }
+                            });
+                    }
+
+                    if ($routes = $panel->getRoutes()) {
+                        $routes($panel);
+                    }
+                });
+        }
     });
-
-Route::middleware(['web'])
-    ->as('web.')
-    ->group(function ()
-    {
-        include_once(__DIR__ . '/groups/web/home.php');
-        include_once(__DIR__ . '/groups/web/game.php');
-        include_once(__DIR__ . '/groups/web/category.php');
-        include_once(__DIR__ . '/groups/web/bets.php');
-        include_once(__DIR__ . '/groups/web/vgames.php');
-		include_once(__DIR__ . '/groups/web/kscinus.php');
-    });
-
-//URL::forceScheme('https');
