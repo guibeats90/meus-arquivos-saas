@@ -1,13 +1,18 @@
 <?php
 require_once 'config/database.php';
 session_start();
+
+if (!isset($_SESSION['user_id'])) {
+    header('Location: login.php');
+    exit;
+}
 ?>
 <!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DesireChat - Galeria de Avatares</title>
+    <title>DesireChat - Meus Avatares</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
@@ -24,12 +29,12 @@ session_start();
             flex-direction: column;
             width: 100%;
             max-width: 336px;
-            height: 420px;
+            height: auto;
             margin: 0 auto;
         }
         @media (min-width: 768px) {
             .avatar-card {
-                height: 520px; /* Aumentado para acomodar o botão */
+                height: 520px;
             }
         }
         .avatar-card:hover {
@@ -38,7 +43,7 @@ session_start();
         .avatar-image-container {
             position: relative;
             width: 100%;
-            height: 252px;
+            padding-top: 150%; /* Proporção 2:3 */
             overflow: hidden;
         }
         @media (min-width: 768px) {
@@ -52,7 +57,8 @@ session_start();
             left: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: contain;
+            background-color: rgba(0, 0, 0, 0.1);
         }
         .expand-icon {
             position: absolute;
@@ -84,7 +90,8 @@ session_start();
         }
         @media (min-width: 768px) {
             .avatar-content {
-                height: 126px; /* Aumentado para acomodar o botão */
+                height: auto;
+                min-height: 126px;
             }
             .avatar-personality {
                 -webkit-line-clamp: 1;
@@ -130,6 +137,7 @@ session_start();
         .modal {
             background: rgba(0, 0, 0, 0.8);
             backdrop-filter: blur(5px);
+            z-index: 2000;
         }
         .image-modal {
             display: none;
@@ -163,7 +171,7 @@ session_start();
             color: white;
             font-size: 2rem;
             cursor: pointer;
-            z-index: 1001;
+            z-index: 2001;
             background: rgba(0, 0, 0, 0.5);
             width: 40px;
             height: 40px;
@@ -255,43 +263,27 @@ session_start();
         .nav-link:hover::after {
             width: 80%;
         }
-        .register-btn {
-            background: linear-gradient(45deg, #ff3366, #ff0000);
-            color: white;
-            padding: 0.5rem 1.5rem;
-            border-radius: 25px;
-            transition: all 0.3s ease;
-            border: none;
-            box-shadow: 0 4px 15px rgba(255, 51, 102, 0.3);
-        }
-        .register-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(255, 51, 102, 0.4);
-            background: linear-gradient(45deg, #ff0000, #ff3366);
-        }
     </style>
 </head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6260311902588440"
-     crossorigin="anonymous"></script>
 <body class="min-h-screen">
     <div class="nav-wrapper">
         <nav class="container mx-auto">
             <div class="flex justify-between items-center py-4 px-6">
-                <h1 class="logo">DesireChat</h1>
+                <a href="index.php" class="logo">DesireChat</a>
                 <button class="mobile-menu-btn text-white md:hidden" onclick="toggleMenu()">
                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
                 </button>
                 <div class="nav-menu flex-col md:flex-row md:items-center md:justify-end mt-4 md:mt-0 space-y-2 md:space-y-0 md:space-x-6">
-                    <?php if(isset($_SESSION['user_id'])): ?>
+                    <?php if (isset($_SESSION['user_id'])): ?>
                         <a href="index.php" class="nav-link">Início</a>
                         <a href="meus_chats.php" class="nav-link">Meus Chats</a>
                         <a href="meus_avatars.php" class="nav-link">Meus Avatares</a>
                         <a href="logout.php" class="nav-link">Sair</a>
                     <?php else: ?>
                         <a href="login.php" class="nav-link">Login</a>
-                        <a href="quiz-br/index.php" class="nav-link">Criar minha Avatar</a>
+                        <a href="planos.php" class="nav-link">Planos</a>
                     <?php endif; ?>
                 </div>
             </div>
@@ -299,62 +291,16 @@ session_start();
     </div>
 
     <main class="container mx-auto px-4 py-8 mt-20">
-        <!-- Seção de Destaque -->
-        <div class="text-center max-w-4xl mx-auto mb-12">
-            <h1 class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-red-500 to-pink-500 bg-clip-text text-transparent">
-                Descubra Conexões Únicas e Intensas
-            </h1>
-            <p class="text-xl text-gray-300 mb-8">
-                Experimente conversas profundas e envolventes com avatares que entendem seus desejos mais íntimos
-            </p>
-            
-            <!-- Estatísticas -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-                <div class="bg-gray-800 bg-opacity-50 rounded-lg p-6 transform hover:scale-105 transition">
-                    <div class="text-3xl font-bold text-red-500 mb-2">1000+</div>
-                    <div class="text-gray-300">Conversas Diárias</div>
-                </div>
-                <div class="bg-gray-800 bg-opacity-50 rounded-lg p-6 transform hover:scale-105 transition">
-                    <div class="text-3xl font-bold text-red-500 mb-2">98%</div>
-                    <div class="text-gray-300">Satisfação dos Usuários</div>
-                </div>
-                <div class="bg-gray-800 bg-opacity-50 rounded-lg p-6 transform hover:scale-105 transition">
-                    <div class="text-3xl font-bold text-red-500 mb-2">24/7</div>
-                    <div class="text-gray-300">Disponibilidade</div>
-                </div>
-            </div>
-
-            <!-- Destaques -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-                <div class="bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg p-6 border border-gray-700">
-                    <h3 class="text-xl font-bold mb-4 text-red-400">✨ Experiência Personalizada</h3>
-                    <p class="text-gray-300">Cada avatar é único, com personalidade própria e desejos que se adaptam aos seus. Descubra conexões que vão além do comum.</p>
-                </div>
-                <div class="bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg p-6 border border-gray-700">
-                    <h3 class="text-xl font-bold mb-4 text-red-400">💭 Conversas Profundas</h3>
-                    <p class="text-gray-300">Explore seus desejos mais íntimos em um ambiente seguro e discreto. Nossas IAs são treinadas para entender e responder a suas necessidades.</p>
-                </div>
-            </div>
-
-            <!-- CTA Principal -->
-            <div class="flex flex-col md:flex-row justify-center items-center gap-4 mb-12">
-                <a href="quiz/index.php" class="bg-gradient-to-r from-red-500 to-pink-500 text-white px-8 py-4 rounded-full hover:from-red-600 hover:to-pink-600 transition transform hover:scale-105 font-bold text-lg shadow-lg flex items-center">
-                    <span class="mr-2">✨</span> Criar Minha IA Personalizada
-                </a>
-                <a href="meus_avatars.php" class="bg-gray-800 text-white px-8 py-4 rounded-full hover:bg-gray-700 transition transform hover:scale-105 font-bold text-lg border border-gray-700 flex items-center">
-                    <span class="mr-2">👥</span> Ver Meus Avatares
-                </a>
-            </div>
-        </div>
-
-        <!-- Título da Galeria -->
         <div class="flex justify-between items-center mb-8">
-            <h2 class="text-3xl font-bold">Nossos Avatares</h2>
+            <h2 class="text-3xl font-bold">Meus Avatares</h2>
+            <a href="quiz/index.php" class="bg-gradient-to-r from-red-500 to-pink-500 text-white px-6 py-2 rounded-full hover:from-red-600 hover:to-pink-600 transition transform hover:scale-105 shadow-lg">
+                Criar Novo Avatar
+            </a>
         </div>
-
-        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-2">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-2 justify-items-center">
             <?php
-            $stmt = $pdo->query("SELECT * FROM avatars WHERE is_active = 1 AND is_custom = 0");
+            $stmt = $pdo->prepare("SELECT * FROM avatars WHERE is_active = 1 AND is_custom = 1 AND created_by = ?");
+            $stmt->execute([$_SESSION['user_id']]);
             while($avatar = $stmt->fetch()):
             ?>
             <div class="avatar-card rounded-lg overflow-hidden shadow-lg">
@@ -387,7 +333,7 @@ session_start();
 
     <!-- Modal de Detalhes do Avatar -->
     <div id="avatarModal" class="fixed inset-0 hidden modal">
-        <div class="flex items-center justify-center min-h-screen p-4">
+        <div class="flex items-center justify-center min-h-screen p-4 pt-20">
             <div class="bg-gray-800 rounded-lg max-w-4xl w-full p-6 relative">
                 <button onclick="closeModal()" class="absolute top-4 right-4 text-white hover:text-red-500 text-2xl">✕</button>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -469,37 +415,6 @@ session_start();
     </div>
 
     <script>
-        function toggleMenu() {
-            const menu = document.querySelector('.nav-menu');
-            menu.classList.toggle('active');
-        }
-
-        // Fecha o menu quando clicar em um link em mobile
-        document.querySelectorAll('.nav-menu a').forEach(link => {
-            link.addEventListener('click', () => {
-                if (window.innerWidth < 768) {
-                    document.querySelector('.nav-menu').classList.remove('active');
-                }
-            });
-        });
-
-        // Fecha o menu quando redimensionar a tela para desktop
-        window.addEventListener('resize', () => {
-            if (window.innerWidth >= 768) {
-                document.querySelector('.nav-menu').classList.add('active');
-            }
-        });
-
-        // Efeito de scroll no header
-        window.addEventListener('scroll', () => {
-            const nav = document.querySelector('.nav-wrapper');
-            if (window.scrollY > 50) {
-                nav.classList.add('scrolled');
-            } else {
-                nav.classList.remove('scrolled');
-            }
-        });
-
         function showAvatarDetails(avatar) {
             document.getElementById('modalName').textContent = avatar.name;
             document.getElementById('modalImage').src = avatar.image_url;
@@ -541,7 +456,7 @@ session_start();
             document.getElementById('modalShynessLevel').querySelector('span').textContent = shynessDescription;
             
             const startChatBtn = document.getElementById('startChatBtn');
-                startChatBtn.onclick = () => window.location.href = `chat.php?avatar_id=${avatar.id}`;
+            startChatBtn.onclick = () => window.location.href = `chat.php?avatar_id=${avatar.id}`;
             
             document.getElementById('avatarModal').classList.remove('hidden');
         }
@@ -568,64 +483,48 @@ session_start();
         document.addEventListener('keydown', function(event) {
             if (event.key === 'Escape') {
                 closeFullImage();
+                closeModal();
             }
         });
 
-        // Animação de entrada dos elementos
-        document.addEventListener('DOMContentLoaded', () => {
-            const elements = document.querySelectorAll('.avatar-card, .bg-gray-800');
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.style.opacity = '1';
-                        entry.target.style.transform = 'translateY(0)';
-                    }
-                });
-            }, { threshold: 0.1 });
+        // Fecha o modal de imagem ao clicar fora dela
+        document.getElementById('imageModal').addEventListener('click', function(event) {
+            if (event.target === this) {
+                closeFullImage();
+            }
+        });
+    </script>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.nav-menu');
+            menu.classList.toggle('active');
+        }
 
-            elements.forEach(element => {
-                element.style.opacity = '0';
-                element.style.transform = 'translateY(20px)';
-                element.style.transition = 'all 0.6s ease-out';
-                observer.observe(element);
+        // Fecha o menu quando clicar em um link em mobile
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth < 768) {
+                    document.querySelector('.nav-menu').classList.remove('active');
+                }
             });
         });
 
-        // Efeito de hover nos cards de estatísticas
-        const statCards = document.querySelectorAll('.bg-gray-800.bg-opacity-50');
-        statCards.forEach(card => {
-            card.addEventListener('mouseenter', () => {
-                card.style.transform = 'scale(1.05)';
-                card.style.boxShadow = '0 10px 30px rgba(255, 51, 102, 0.2)';
-            });
-            card.addEventListener('mouseleave', () => {
-                card.style.transform = 'scale(1)';
-                card.style.boxShadow = 'none';
-            });
+        // Fecha o menu quando redimensionar a tela para desktop
+        window.addEventListener('resize', () => {
+            if (window.innerWidth >= 768) {
+                document.querySelector('.nav-menu').classList.add('active');
+            }
         });
 
-        // Efeito de parallax suave no título principal
+        // Efeito de scroll no header
         window.addEventListener('scroll', () => {
-            const title = document.querySelector('.text-4xl');
-            if (title) {
-                const scrolled = window.pageYOffset;
-                title.style.transform = `translateY(${scrolled * 0.1}px)`;
+            const nav = document.querySelector('.nav-wrapper');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
             }
-        });
-
-        // Efeito de brilho nos botões CTA
-        const ctaButtons = document.querySelectorAll('.bg-gradient-to-r');
-        ctaButtons.forEach(button => {
-            button.addEventListener('mouseenter', () => {
-                button.style.boxShadow = '0 0 20px rgba(255, 51, 102, 0.4)';
-            });
-            button.addEventListener('mouseleave', () => {
-                button.style.boxShadow = 'none';
-            });
         });
     </script>
 </body>
 </html> 
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6260311902588440"
-     crossorigin="anonymous"></script>

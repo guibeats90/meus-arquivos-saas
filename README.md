@@ -1,114 +1,99 @@
-<p style="text-align: center"><img src="https://github.com/FakerPHP/Artwork/raw/main/src/socialcard.png" alt="Social card of FakerPHP"></p>
+# DesireChat - Chat IA com Roleplay
 
-# Faker
+Um site moderno e elegante para chat com avatares de IA, desenvolvido para o mercado português.
 
-[![Packagist Downloads](https://img.shields.io/packagist/dm/FakerPHP/Faker)](https://packagist.org/packages/fakerphp/faker)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/FakerPHP/Faker/Tests/main)](https://github.com/FakerPHP/Faker/actions)
-[![Type Coverage](https://shepherd.dev/github/FakerPHP/Faker/coverage.svg)](https://shepherd.dev/github/FakerPHP/Faker)
-[![Code Coverage](https://codecov.io/gh/FakerPHP/Faker/branch/main/graph/badge.svg)](https://codecov.io/gh/FakerPHP/Faker)
+## Características
 
-Faker is a PHP library that generates fake data for you. Whether you need to bootstrap your database, create good-looking XML documents, fill-in your persistence to stress test it, or anonymize data taken from a production service, Faker is for you.
+- Interface moderna e responsiva
+- Galeria de avatares com personalidades únicas
+- Sistema de chat em tempo real
+- Assinatura mensal com mensagens grátis
+- Painel administrativo completo
+- Integração com APIs de IA (OpenRouter)
 
-It's heavily inspired by Perl's [Data::Faker](https://metacpan.org/pod/Data::Faker), and by Ruby's [Faker](https://rubygems.org/gems/faker).
+## Requisitos
 
-## Getting Started
+- PHP 7.4 ou superior
+- MySQL 5.7 ou superior
+- Servidor web (Apache/Nginx)
+- Composer (para dependências)
 
-### Installation
+## Instalação
 
-Faker requires PHP >= 7.4.
-
-```shell
-composer require fakerphp/faker
-```
-
-### Documentation
-
-Full documentation can be found over on [fakerphp.github.io](https://fakerphp.github.io).
-
-### Basic Usage
-
-Use `Faker\Factory::create()` to create and initialize a Faker generator, which can generate data by accessing methods named after the type of data you want.
-
-```php
-<?php
-require_once 'vendor/autoload.php';
-
-// use the factory to create a Faker\Generator instance
-$faker = Faker\Factory::create();
-// generate data by calling methods
-echo $faker->name();
-// 'Vince Sporer'
-echo $faker->email();
-// 'walter.sophia@hotmail.com'
-echo $faker->text();
-// 'Numquam ut mollitia at consequuntur inventore dolorem.'
-```
-
-Each call to `$faker->name()` yields a different (random) result. This is because Faker uses `__call()` magic, and forwards `Faker\Generator->$method()` calls to `Faker\Generator->format($method, $attributes)`.
-
-```php
-<?php
-for ($i = 0; $i < 3; $i++) {
-    echo $faker->name() . "\n";
-}
-
-// 'Cyrus Boyle'
-// 'Alena Cummerata'
-// 'Orlo Bergstrom'
-```
-
-## Automated refactoring
-
-If you already used this library with its properties, they are now deprecated and needs to be replaced by their equivalent methods.
-
-You can use the provided [Rector](https://github.com/rectorphp/rector) config file to automate the work.
-
-Run
-
+1. Clone o repositório:
 ```bash
-composer require --dev rector/rector
+git clone https://github.com/seu-usuario/desirechat.git
+cd desirechat
 ```
 
-to install `rector/rector`.
-
-Run
-
+2. Configure o banco de dados:
 ```bash
-vendor/bin/rector process src/ --config vendor/fakerphp/faker/rector-migrate.php
+mysql -u seu_usuario -p < database.sql
 ```
 
-to run `rector/rector`.
-
-*Note:* do not forget to replace `src/` with the path to your source directory.
-
-Alternatively, import the configuration in your `rector.php` file:
-
+3. Configure as credenciais do banco de dados:
+Edite o arquivo `config/database.php` com suas credenciais:
 ```php
-<?php
-
-declare(strict_types=1);
-
-use Rector\Config;
-
-return static function (Config\RectorConfig $rectorConfig): void {
-    $rectorConfig->import('vendor/fakerphp/faker/rector-migrate.php');
-};
+define('DB_HOST', 'localhost');
+define('DB_USER', 'seu_usuario');
+define('DB_PASS', 'sua_senha');
+define('DB_NAME', 'desirechat');
 ```
 
-## License
+4. Configure o servidor web:
+- Para Apache, certifique-se de que o mod_rewrite está ativado
+- Para Nginx, adicione as regras de rewrite apropriadas
 
-Faker is released under the MIT License. See [`LICENSE`](LICENSE) for details.
+5. Configure as permissões:
+```bash
+chmod -R 755 .
+chmod -R 777 uploads/ # Se houver upload de imagens
+```
 
-## Backward compatibility promise
+## Estrutura do Projeto
 
-Faker is using [Semver](https://semver.org/). This means that versions are tagged
-with MAJOR.MINOR.PATCH. Only a new major version will be allowed to break backward
-compatibility (BC).
+```
+desirechat/
+├── api/                 # APIs para chat e assinaturas
+├── config/             # Configurações do banco de dados
+├── admin/              # Painel administrativo
+├── uploads/            # Imagens dos avatares
+├── index.php           # Página inicial
+├── login.php           # Página de login
+├── register.php        # Página de registro
+├── chat.php            # Interface de chat
+├── subscription.php    # Página de assinatura
+└── database.sql        # Estrutura do banco de dados
+```
 
-Classes marked as `@experimental` or `@internal` are not included in our backward compatibility promise.
-You are also not guaranteed that the value returned from a method is always the
-same. You are guaranteed that the data type will not change.
+## Configuração da API de IA
 
-PHP 8 introduced [named arguments](https://wiki.php.net/rfc/named_params), which
-increased the cost and reduces flexibility for package maintainers. The names of the
-arguments for methods in Faker is not included in our BC promise.
+Para integrar com a API de IA (OpenRouter), você precisará:
+
+1. Criar uma conta em [OpenRouter](https://openrouter.ai/)
+2. Obter sua chave de API
+3. Configurar o endpoint no arquivo `api/send_message.php`
+
+## Segurança
+
+- Todas as senhas são hasheadas usando password_hash()
+- Proteção contra SQL Injection usando prepared statements
+- Validação de entrada em todos os formulários
+- Sessões seguras com regeneração de ID
+- Proteção contra CSRF (a ser implementado)
+
+## Contribuição
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+## Suporte
+
+Para suporte, envie um email para suporte@desirechat.com ou abra uma issue no GitHub. 
