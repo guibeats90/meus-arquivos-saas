@@ -1,0 +1,292 @@
+[2025-04-28 17:37:45] HTTP 500: Internal Server Error
+[2025-04-28 20:06:38] Usando template de prompt personalizado
+[2025-04-28 20:06:38] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-3.3-70b-instruct:free
+[2025-04-28 20:06:40] Resposta inválida da API: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 6.55 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-RateLimit-Reset":"1745884800000"},"provider_name":null}},"user_id":"user_2wKuq9E8g90ecKtX2mnbpTBZtpi"}
+[2025-04-28 20:07:48] Usando template de prompt personalizado
+[2025-04-28 20:07:48] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-3.3-70b-instruct:free
+[2025-04-28 20:07:49] Resposta inválida da API: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 6.55 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-RateLimit-Reset":"1745884800000"},"provider_name":null}},"user_id":"user_2wKuq9E8g90ecKtX2mnbpTBZtpi"}
+[2025-04-28 20:11:54] Usando template de prompt personalizado
+[2025-04-28 20:11:54] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-3.3-70b-instruct:free
+[2025-04-28 20:11:54] Resposta inválida da API: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 6.55 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-RateLimit-Reset":"1745884800000"},"provider_name":null}},"user_id":"user_2wKuq9E8g90ecKtX2mnbpTBZtpi"}
+[2025-04-28 20:20:05] Usando template de prompt personalizado
+[2025-04-28 20:20:05] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 20:20:37] Usando template de prompt personalizado
+[2025-04-28 20:20:37] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:24:11] Usando template de prompt personalizado
+[2025-04-28 22:24:11] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:24:37] Usando template de prompt personalizado
+[2025-04-28 22:24:37] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:25:05] Usando template de prompt personalizado
+[2025-04-28 22:25:05] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:25:30] Usando template de prompt personalizado
+[2025-04-28 22:25:30] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:26:01] Usando template de prompt personalizado
+[2025-04-28 22:26:01] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:27:15] Usando template de prompt personalizado
+[2025-04-28 22:27:15] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:27:37] Usando template de prompt personalizado
+[2025-04-28 22:27:37] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:28:08] Usando template de prompt personalizado
+[2025-04-28 22:28:08] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:28:40] Usando template de prompt personalizado
+[2025-04-28 22:28:40] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:29:45] Usando template de prompt personalizado
+[2025-04-28 22:29:45] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:30:19] Usando template de prompt personalizado
+[2025-04-28 22:30:19] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:30:38] Usando template de prompt personalizado
+[2025-04-28 22:30:38] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:31:57] Usando template de prompt personalizado
+[2025-04-28 22:31:57] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:32:58] Usando template de prompt personalizado
+[2025-04-28 22:32:58] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:33:53] Usando template de prompt personalizado
+[2025-04-28 22:33:53] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:35:01] Usando template de prompt personalizado
+[2025-04-28 22:35:01] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:35:21] Usando template de prompt personalizado
+[2025-04-28 22:35:21] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:36:02] Usando template de prompt personalizado
+[2025-04-28 22:36:02] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:37:03] Usando template de prompt personalizado
+[2025-04-28 22:37:03] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:37:30] Usando template de prompt personalizado
+[2025-04-28 22:37:30] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:39:12] Usando template de prompt personalizado
+[2025-04-28 22:39:12] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:39:37] Usando template de prompt personalizado
+[2025-04-28 22:39:37] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:40:23] Usando template de prompt personalizado
+[2025-04-28 22:40:23] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:40:38] Usando template de prompt personalizado
+[2025-04-28 22:40:38] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:40:53] Usando template de prompt personalizado
+[2025-04-28 22:40:53] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:41:56] Usando template de prompt personalizado
+[2025-04-28 22:41:56] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:42:13] Usando template de prompt personalizado
+[2025-04-28 22:42:13] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:44:50] Usando template de prompt personalizado
+[2025-04-28 22:44:50] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:45:34] Usando template de prompt personalizado
+[2025-04-28 22:45:34] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:46:08] Usando template de prompt personalizado
+[2025-04-28 22:46:08] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:46:32] Usando template de prompt personalizado
+[2025-04-28 22:46:32] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:46:58] Usando template de prompt personalizado
+[2025-04-28 22:46:58] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:47:26] Usando template de prompt personalizado
+[2025-04-28 22:47:26] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:48:57] Usando template de prompt personalizado
+[2025-04-28 22:48:57] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:49:33] Usando template de prompt personalizado
+[2025-04-28 22:49:33] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:50:40] Usando template de prompt personalizado
+[2025-04-28 22:50:40] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:51:38] Usando template de prompt personalizado
+[2025-04-28 22:51:38] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:52:01] Usando template de prompt personalizado
+[2025-04-28 22:52:01] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:52:52] Usando template de prompt personalizado
+[2025-04-28 22:52:52] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:53:35] Usando template de prompt personalizado
+[2025-04-28 22:53:35] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:54:25] Usando template de prompt personalizado
+[2025-04-28 22:54:25] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:55:01] Usando template de prompt personalizado
+[2025-04-28 22:55:01] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:55:26] Usando template de prompt personalizado
+[2025-04-28 22:55:26] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:56:01] Usando template de prompt personalizado
+[2025-04-28 22:56:01] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:56:27] Usando template de prompt personalizado
+[2025-04-28 22:56:27] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:57:32] Usando template de prompt personalizado
+[2025-04-28 22:57:32] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 22:58:53] Usando template de prompt personalizado
+[2025-04-28 22:58:53] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 23:01:00] Usando template de prompt personalizado
+[2025-04-28 23:01:00] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 23:02:07] Usando template de prompt personalizado
+[2025-04-28 23:02:07] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 23:03:37] Usando template de prompt personalizado
+[2025-04-28 23:03:37] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 23:05:28] Usando template de prompt personalizado
+[2025-04-28 23:05:28] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 23:07:48] Usando template de prompt personalizado
+[2025-04-28 23:07:48] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 23:08:18] Usando template de prompt personalizado
+[2025-04-28 23:08:18] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 23:08:23] Usando template de prompt personalizado
+[2025-04-28 23:08:23] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 23:08:34] Usando template de prompt personalizado
+[2025-04-28 23:08:34] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 23:08:45] Usando template de prompt personalizado
+[2025-04-28 23:08:45] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-28 23:09:12] Usando template de prompt personalizado
+[2025-04-28 23:09:12] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-30 03:40:54] Usando personalidade padrão
+[2025-04-30 03:40:54] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-30 03:41:01] Resposta inválida da API: {"error":{"message":"Provider returned error","code":502,"metadata":{"raw":"Something went wrong!\n","provider_name":"SambaNova"}},"user_id":"user_2wKuq9E8g90ecKtX2mnbpTBZtpi"}
+[2025-04-30 03:41:17] Usando template de prompt personalizado
+[2025-04-30 03:41:17] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-4-maverick
+[2025-04-30 04:12:09] Usando template de prompt personalizado
+[2025-04-30 04:12:09] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 04:12:19] Usando template de prompt personalizado
+[2025-04-30 04:12:19] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 04:38:50] Usando template de prompt personalizado
+[2025-04-30 04:38:50] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 04:41:27] Usando template de prompt personalizado
+[2025-04-30 04:41:27] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 04:48:05] Usando template de prompt personalizado
+[2025-04-30 04:48:05] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 04:50:35] Usando template de prompt personalizado
+[2025-04-30 04:50:35] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 04:51:38] Usando template de prompt personalizado
+[2025-04-30 04:51:38] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 04:51:48] Usando template de prompt personalizado
+[2025-04-30 04:51:48] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:04:49] Usando template de prompt personalizado
+[2025-04-30 05:04:49] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:05:24] Usando template de prompt personalizado
+[2025-04-30 05:05:24] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:05:41] Usando template de prompt personalizado
+[2025-04-30 05:05:41] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:06:48] Usando template de prompt personalizado
+[2025-04-30 05:06:48] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:06:59] Usando template de prompt personalizado
+[2025-04-30 05:06:59] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:07:28] Usando template de prompt personalizado
+[2025-04-30 05:07:28] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:08:50] Usando template de prompt personalizado
+[2025-04-30 05:08:50] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:11:53] Usando template de prompt personalizado
+[2025-04-30 05:11:53] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:14:16] Usando template de prompt personalizado
+[2025-04-30 05:14:16] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:15:57] Usando template de prompt personalizado
+[2025-04-30 05:15:57] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:23:15] Usando template de prompt personalizado
+[2025-04-30 05:23:15] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:24:14] Usando template de prompt personalizado
+[2025-04-30 05:24:14] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:26:16] Usando template de prompt personalizado
+[2025-04-30 05:26:16] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:28:13] Usando template de prompt personalizado
+[2025-04-30 05:28:13] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:29:01] Usando template de prompt personalizado
+[2025-04-30 05:29:01] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:29:52] Usando template de prompt personalizado
+[2025-04-30 05:29:52] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:30:53] Usando template de prompt personalizado
+[2025-04-30 05:30:53] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:33:01] Usando template de prompt personalizado
+[2025-04-30 05:33:01] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:33:23] Usando template de prompt personalizado
+[2025-04-30 05:33:23] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:34:07] Usando template de prompt personalizado
+[2025-04-30 05:34:07] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:34:38] Usando template de prompt personalizado
+[2025-04-30 05:34:38] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:35:11] Usando template de prompt personalizado
+[2025-04-30 05:35:11] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:36:33] Usando template de prompt personalizado
+[2025-04-30 05:36:33] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:38:00] Usando template de prompt personalizado
+[2025-04-30 05:38:00] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:40:52] Usando template de prompt personalizado
+[2025-04-30 05:40:52] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:43:32] Usando template de prompt personalizado
+[2025-04-30 05:43:32] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:45:15] Usando template de prompt personalizado
+[2025-04-30 05:45:15] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:46:03] Usando template de prompt personalizado
+[2025-04-30 05:46:03] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:50:27] Usando template de prompt personalizado
+[2025-04-30 05:50:27] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:54:31] Usando template de prompt personalizado
+[2025-04-30 05:54:31] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:56:10] Usando template de prompt personalizado
+[2025-04-30 05:56:10] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:57:58] Usando template de prompt personalizado
+[2025-04-30 05:57:58] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 05:58:28] Erro cURL: Operation timed out after 30002 milliseconds with 770 bytes received
+[2025-04-30 05:58:59] Usando template de prompt personalizado
+[2025-04-30 05:58:59] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 06:00:23] Usando template de prompt personalizado
+[2025-04-30 06:00:23] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 06:02:10] Usando template de prompt personalizado
+[2025-04-30 06:02:10] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 06:03:17] Usando template de prompt personalizado
+[2025-04-30 06:03:17] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 06:04:39] Usando template de prompt personalizado
+[2025-04-30 06:04:39] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 06:05:14] Usando template de prompt personalizado
+[2025-04-30 06:05:14] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 06:05:47] Usando template de prompt personalizado
+[2025-04-30 06:05:47] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 06:07:24] Usando template de prompt personalizado
+[2025-04-30 06:07:24] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 06:08:15] Usando template de prompt personalizado
+[2025-04-30 06:08:15] Enviando requisição para a API OpenRouter com modelo: nousresearch/hermes-3-llama-3.1-70b
+[2025-04-30 06:11:58] Usando template de prompt personalizado
+[2025-04-30 06:11:58] Enviando requisição para a API OpenRouter com modelo: gryphe/mythomax-l2-13b
+[2025-04-30 06:14:05] Usando template de prompt personalizado
+[2025-04-30 06:14:05] Enviando requisição para a API OpenRouter com modelo: gryphe/mythomax-l2-13b
+[2025-04-30 06:18:57] Usando template de prompt personalizado
+[2025-04-30 06:18:57] Enviando requisição para a API OpenRouter com modelo: gryphe/mythomax-l2-13b
+[2025-04-30 06:22:16] Usando template de prompt personalizado
+[2025-04-30 06:22:16] Enviando requisição para a API OpenRouter com modelo: gryphe/mythomax-l2-13b
+[2025-04-30 06:25:26] Usando template de prompt personalizado
+[2025-04-30 06:25:26] Enviando requisição para a API OpenRouter com modelo: gryphe/mythomax-l2-13b
+[2025-04-30 06:25:35] Usando template de prompt personalizado
+[2025-04-30 06:25:35] Enviando requisição para a API OpenRouter com modelo: gryphe/mythomax-l2-13b
+[2025-04-30 06:25:46] Usando template de prompt personalizado
+[2025-04-30 06:25:46] Enviando requisição para a API OpenRouter com modelo: gryphe/mythomax-l2-13b
+[2025-04-30 06:27:57] Usando template de prompt personalizado
+[2025-04-30 06:27:57] Enviando requisição para a API OpenRouter com modelo: gryphe/mythomax-l2-13b
+[2025-04-30 06:29:16] Usando template de prompt personalizado
+[2025-04-30 06:29:16] Enviando requisição para a API OpenRouter com modelo: gryphe/mythomax-l2-13b
+[2025-04-30 06:30:05] Usando template de prompt personalizado
+[2025-04-30 06:30:05] Enviando requisição para a API OpenRouter com modelo: gryphe/mythomax-l2-13b
+[2025-04-30 06:30:15] Usando template de prompt personalizado
+[2025-04-30 06:30:15] Enviando requisição para a API OpenRouter com modelo: gryphe/mythomax-l2-13b
+[2025-04-30 06:30:29] Usando template de prompt personalizado
+[2025-04-30 06:30:29] Enviando requisição para a API OpenRouter com modelo: gryphe/mythomax-l2-13b
+[2025-04-30 06:30:53] Usando template de prompt personalizado
+[2025-04-30 06:30:53] Enviando requisição para a API OpenRouter com modelo: gryphe/mythomax-l2-13b
+[2025-04-30 06:31:49] Usando template de prompt personalizado
+[2025-04-30 06:31:49] Enviando requisição para a API OpenRouter com modelo: gryphe/mythomax-l2-13b
+[2025-04-30 06:32:48] Usando template de prompt personalizado
+[2025-04-30 06:32:48] Enviando requisição para a API OpenRouter com modelo: gryphe/mythomax-l2-13b
+[2025-04-30 06:33:16] Usando template de prompt personalizado
+[2025-04-30 06:33:16] Enviando requisição para a API OpenRouter com modelo: gryphe/mythomax-l2-13b
+[2025-04-30 06:37:32] Usando template de prompt personalizado
+[2025-04-30 06:37:32] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-3.3-70b-instruct
+[2025-04-30 06:39:07] Usando template de prompt personalizado
+[2025-04-30 06:39:07] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-3.3-70b-instruct
+[2025-04-30 06:39:36] Usando template de prompt personalizado
+[2025-04-30 06:39:36] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-3.3-70b-instruct
+[2025-04-30 06:39:56] Usando template de prompt personalizado
+[2025-04-30 06:39:56] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-3.3-70b-instruct
+[2025-04-30 06:40:22] Usando template de prompt personalizado
+[2025-04-30 06:40:22] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-3.3-70b-instruct
+[2025-04-30 06:40:38] Usando template de prompt personalizado
+[2025-04-30 06:40:38] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-3.3-70b-instruct
+[2025-04-30 06:41:40] Usando template de prompt personalizado
+[2025-04-30 06:41:40] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-3.3-70b-instruct
+[2025-04-30 06:42:36] Usando template de prompt personalizado
+[2025-04-30 06:42:36] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-3.3-70b-instruct
+[2025-04-30 06:43:34] Usando template de prompt personalizado
+[2025-04-30 06:43:34] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-3.3-70b-instruct
+[2025-04-30 06:44:08] Usando template de prompt personalizado
+[2025-04-30 06:44:08] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-3.3-70b-instruct
+[2025-04-30 06:44:32] Resposta encontrada em cache para a chave 0dfd4245f2ec9d1e8de903c4e3593612
+[2025-04-30 06:45:09] Usando template de prompt personalizado
+[2025-04-30 06:45:09] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-3.3-70b-instruct
+[2025-04-30 06:45:29] Resposta encontrada em cache para a chave 0dfd4245f2ec9d1e8de903c4e3593612
+[2025-04-30 06:45:36] Resposta encontrada em cache para a chave 0dfd4245f2ec9d1e8de903c4e3593612
+[2025-04-30 06:50:37] Resposta encontrada em cache para a chave 0dfd4245f2ec9d1e8de903c4e3593612
+[2025-04-30 06:51:53] Usando template de prompt personalizado
+[2025-04-30 06:51:53] Enviando requisição para a API OpenRouter com modelo: meta-llama/llama-3.3-70b-instruct
