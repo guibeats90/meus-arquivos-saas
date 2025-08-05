@@ -2,8 +2,6 @@
 title: Installation
 ---
 
-**The Actions package is pre-installed with the [Panel Builder](/docs/panels).** This guide is for using the Actions package in a custom TALL Stack application (Tailwind, Alpine, Livewire, Laravel).
-
 ## Requirements
 
 Filament requires the following to run:
@@ -15,146 +13,97 @@ Filament requires the following to run:
 > **Livewire v3 is still in beta**
 > Although breaking changes should be minimal, we recommend testing your application thoroughly before using Livewire v3 in production.
 
-First, require the Actions package using Composer:
+## Installation
+
+> If you are upgrading from Filament v2, please review the [upgrade guide](upgrade-guide).
+
+To install the Filament Panel Builder, run the following commands in your Laravel project directory:
 
 ```bash
-composer require filament/actions:"^3.0"
+composer require filament/filament:"^3.0"
+
+php artisan filament:install --panels
 ```
 
-## New Laravel projects
+This will create and register a new [Laravel service provider](https://laravel.com/docs/providers) called `app/Providers/Filament/AdminPanelProvider.php`.
 
-To quickly get started with Filament in a new Laravel project, run the following commands to install [Livewire](https://livewire.laravel.com), [Alpine.js](https://alpinejs.dev), and [Tailwind CSS](https://tailwindcss.com):
+> If you get an error when accessing your panel, check that the service provider was registered in your `config/app.php`. If not, you should manually add it to the `providers` array.
 
-> Since these commands will overwrite existing files in your application, only run this in a new Laravel project!
+## Create a user
+You can create a new user account with the following command:
 
 ```bash
-php artisan filament:install --scaffold --actions
-
-npm install
-
-npm run dev
+php artisan make:filament-user
 ```
 
-## Existing Laravel projects
+Open `/admin` in your web browser, sign in, and start building your app!
 
-Run the following command to install the Actions package assets:
+Not sure where to start? Review the [Getting Started guide](getting-started) to learn how to build a complete Filament admin panel.
 
-```bash
-php artisan filament:install --actions
-```
+## Using other Filament packages
+The Filament Panel Builder pre-installs the [form builder](/docs/forms), [table builder](/docs/tables), [notifications](/docs/notifications), [actions](/docs/actions), [infolists](/docs/infolists), and [widgets](/docs/widgets) packages. No other installation steps are required to use these packages within a panel.
 
-### Installing Tailwind CSS
+## Deploying to production
 
-Run the following command to install Tailwind CSS with the Tailwind Forms and Typography plugins:
+By default, all `User` models can access Filament locally. However, when deploying to production, you must update your `App\Models\User.php` to implement the `FilamentUser` contract — ensuring that only the correct users can access your panel:
 
-```bash
-npm install tailwindcss @tailwindcss/forms @tailwindcss/typography postcss autoprefixer --save-dev
-```
+```php
+<?php
 
-Create a new `tailwind.config.js` file and add the Filament `preset` *(includes the Filament color scheme and the required Tailwind plugins)*:
+namespace App\Models;
 
-```js
-import preset from './vendor/filament/support/tailwind.config.preset'
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Panel;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 
-export default {
-    presets: [preset],
-    content: [
-        './app/Filament/**/*.php',
-        './resources/views/filament/**/*.blade.php',
-        './vendor/filament/**/*.blade.php',
-    ],
+class User extends Authenticatable implements FilamentUser
+{
+    // ...
+
+    public function canAccessPanel(Panel $panel): bool
+    {
+        return str_ends_with($this->email, '@yourdomain.com') && $this->hasVerifiedEmail();
+    }
 }
 ```
 
-### Configuring styles
+> If you don't complete these steps, a 403 Forbidden error will be returned when accessing the app in production.
 
-Add Tailwind's CSS layers to your `resources/css/app.css`:
-
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
-Create a `postcss.config.js` file in the root of your project and register Tailwind CSS and Autoprefixer as plugins:
-
-```js
-export default {
-    plugins: {
-        tailwindcss: {},
-        autoprefixer: {},
-    },
-}
-```
-
-### Automatically refreshing the browser
-You may also want to update your `vite.config.js` file to refresh the page automatically when Livewire components are updated:
-
-```js
-import { defineConfig } from 'vite'
-import laravel, { refreshPaths } from 'laravel-vite-plugin'
-
-export default defineConfig({
-    plugins: [
-        laravel({
-            input: ['resources/css/app.css', 'resources/js/app.js'],
-            refresh: [
-                ...refreshPaths,
-                'app/Livewire/**',
-            ],
-        }),
-    ],
-})
-```
-
-### Compiling assets
-
-Compile your new CSS and Javascript assets using `npm run dev`.
-
-### Configuring your layout
-
-Create a new `resources/views/components/layouts/app.blade.php` layout file for Livewire components:
-
-```blade
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-
-        <meta name="application-name" content="{{ config('app.name') }}">
-        <meta name="csrf-token" content="{{ csrf_token() }}">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>{{ config('app.name') }}</title>
-
-        <style>
-            [x-cloak] {
-                display: none !important;
-            }
-        </style>
-
-        @filamentStyles
-        @vite('resources/css/app.css')
-    </head>
-
-    <body class="antialiased">
-        {{ $slot }}
-
-        @filamentScripts
-        @vite('resources/js/app.js')
-    </body>
-</html>
-```
+Learn more about [users](users).
 
 ## Publishing configuration
 
-You can publish the package configuration using the following command (optional):
+You can publish the Filament package configuration (if needed) using the following command:
 
 ```bash
 php artisan vendor:publish --tag=filament-config
 ```
 
+## Publishing translations
+
+You can publish the language files for translations (if needed) with the following command:
+
+```bash
+php artisan vendor:publish --tag=filament-panels-translations
+```
+
+Since this package depends on other Filament packages, you can publish the language files for those packages with the following commands:
+
+```bash
+php artisan vendor:publish --tag=filament-actions-translations
+
+php artisan vendor:publish --tag=filament-forms-translations
+
+php artisan vendor:publish --tag=filament-notifications-translations
+
+php artisan vendor:publish --tag=filament-tables-translations
+
+php artisan vendor:publish --tag=filament-translations
+```
+
 ## Upgrading
+
+> Upgrading from Filament v2? Please review the [upgrade guide](upgrade-guide).
 
 Filament automatically upgrades to the latest non-breaking version when you run `composer update`. If you notice that Filament is not upgrading automatically, ensure that the `filament:upgrade` command is present in your `composer.json`:
 
